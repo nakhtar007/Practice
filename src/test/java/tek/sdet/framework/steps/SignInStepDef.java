@@ -1,6 +1,12 @@
 package tek.sdet.framework.steps;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -9,30 +15,39 @@ import io.cucumber.java.en.When;
 import tek.sdet.framework.pages.POMFactory;
 import tek.sdet.framework.utilities.CommonUtility;
 
+
 public class SignInStepDef extends CommonUtility {
 
 	private POMFactory factory = new POMFactory();
 	
 	@Given("User is on tek retail website")
-	public void userIsOnTekRetailWebsite() {
+	public void userIsOnTekRetailWebsite() throws IOException {
 		String actualTitle = getTitle();
 		String expectedTitle = "React App";
 		Assert.assertEquals(actualTitle, expectedTitle);
 		Assert.assertTrue(isElementDisplayed(factory.homePage().tekSchoolLogo));
 		logger.info("user is on retail website");
 		logger.info("Actual Title " + actualTitle + " Equals " + " ExpectedTitle " + expectedTitle);
+		takeScreenShotAsBytes();
+		File file = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(file, new File("./output/home.jpg"));
 	}
 	@When("User click on signIn button")
-	public void userClickOnSignInButton() {
+	public void userClickOnSignInButton() throws IOException {
 		click(factory.homePage().signInButton);
 		logger.info("User clicked on sign in button");
-	    
+		takeScreenShotAsBytes();
+		File file = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(file, new File("./output/SigninForm.jpg"));
 	}
 	@When("User enters email {string} and password {string}")
-	public void userEntersEmailAndPassword(String emailValue, String passValue) {
+	public void userEntersEmailAndPassword(String emailValue, String passValue) throws IOException {
 	    sendText(factory.signInPage().emailField,emailValue);
 	    sendText(factory.signInPage().passwordField,passValue);
 	    logger.info("User entered email "+emailValue+"and password "+passValue);
+	    takeScreenShotAsBytes();
+		File file = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(file, new File("./output/FilledData.jpg"));
 	}
 	
 	@And ("User click on login button")
@@ -44,9 +59,12 @@ public class SignInStepDef extends CommonUtility {
 	
 	
 	@Then("User should be logged in")
-	public void userShouldBeLoggedIn() {
+	public void userShouldBeLoggedIn() throws IOException {
 	Assert.assertTrue(isElementDisplayed(factory.accountHomePage().accountButton));
 	logger.info("Account button is Displayed");
+	takeScreenShotAsBytes();
+	File file = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
+	FileUtils.copyFile(file, new File("./output/LoggedIn.jpg"));
 	    
 	}
 	

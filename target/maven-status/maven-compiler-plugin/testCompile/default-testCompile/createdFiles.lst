@@ -1,5 +1,9 @@
 tek\sdet\framework\base\BaseUITest.class
+tek\sdet\framework\pages\AccountHomePage.class
+tek\sdet\framework\runner\TestRunner.class
+tek\sdet\framework\steps\SignInStepDef.class
 tek\sdet\framework\pages\RetailHomePage.class
+tek\sdet\framework\steps\AccountSteps.class
 tek\sdet\framework\steps\RetailSteps.class
 tek\sdet\framework\pages\RetailSignInPage.class
 tek\sdet\framework\pages\POMFactory.class

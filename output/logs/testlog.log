@@ -681,3 +681,27 @@
 2023-03-09 14:15:34,333 - logger_File -INFO - User entered email zafar@gmail.comand password Jafar22@
 2023-03-09 14:15:34,417 - logger_File -INFO - User clicked on login button
 2023-03-09 14:15:34,745 - logger_File -INFO - Account button is Displayed
+2023-03-09 14:38:14,414 - logger_File -INFO - user is on retail website
+2023-03-09 14:38:14,420 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 14:38:15,055 - logger_File -INFO - User clicked on sign in button
+2023-03-09 14:38:15,403 - logger_File -INFO - User entered email zafar@gmail.comand password Jafar22@
+2023-03-09 14:38:15,640 - logger_File -INFO - User clicked on login button
+2023-03-09 14:38:15,942 - logger_File -INFO - Account button is Displayed
+2023-03-09 14:39:01,505 - logger_File -INFO - user is on retail website
+2023-03-09 14:39:01,517 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 14:39:02,148 - logger_File -INFO - User clicked on sign in button
+2023-03-09 14:39:02,492 - logger_File -INFO - User entered email zafar@gmail.comand password Jafar22@
+2023-03-09 14:39:02,714 - logger_File -INFO - User clicked on login button
+2023-03-09 14:39:03,047 - logger_File -INFO - Account button is Displayed
+2023-03-09 14:52:24,957 - logger_File -INFO - user is on retail website
+2023-03-09 14:52:24,962 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 14:52:25,612 - logger_File -INFO - User clicked on sign in button
+2023-03-09 14:52:26,130 - logger_File -INFO - User entered email zafar@gmail.comand password Jafar22@
+2023-03-09 14:52:26,345 - logger_File -INFO - User clicked on login button
+2023-03-09 14:52:26,633 - logger_File -INFO - Account button is Displayed
+2023-03-09 15:06:53,178 - logger_File -INFO - user is on retail website
+2023-03-09 15:06:53,182 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 15:06:54,347 - logger_File -INFO - User clicked on sign in button
+2023-03-09 15:06:54,893 - logger_File -INFO - User entered email zafar@gmail.comand password Jafar22@
+2023-03-09 15:06:55,226 - logger_File -INFO - User clicked on login button
+2023-03-09 15:06:55,552 - logger_File -INFO - Account button is Displayed

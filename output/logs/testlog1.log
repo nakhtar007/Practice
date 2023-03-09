@@ -681,3 +681,27 @@
 2023-03-09 14:15:34,333 [main] INFO logger_File - User entered email zafar@gmail.comand password Jafar22@
 2023-03-09 14:15:34,417 [main] INFO logger_File - User clicked on login button
 2023-03-09 14:15:34,745 [main] INFO logger_File - Account button is Displayed
+2023-03-09 14:38:14,414 [main] INFO logger_File - user is on retail website
+2023-03-09 14:38:14,420 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 14:38:15,055 [main] INFO logger_File - User clicked on sign in button
+2023-03-09 14:38:15,403 [main] INFO logger_File - User entered email zafar@gmail.comand password Jafar22@
+2023-03-09 14:38:15,640 [main] INFO logger_File - User clicked on login button
+2023-03-09 14:38:15,942 [main] INFO logger_File - Account button is Displayed
+2023-03-09 14:39:01,505 [main] INFO logger_File - user is on retail website
+2023-03-09 14:39:01,517 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 14:39:02,148 [main] INFO logger_File - User clicked on sign in button
+2023-03-09 14:39:02,492 [main] INFO logger_File - User entered email zafar@gmail.comand password Jafar22@
+2023-03-09 14:39:02,714 [main] INFO logger_File - User clicked on login button
+2023-03-09 14:39:03,047 [main] INFO logger_File - Account button is Displayed
+2023-03-09 14:52:24,957 [main] INFO logger_File - user is on retail website
+2023-03-09 14:52:24,962 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 14:52:25,612 [main] INFO logger_File - User clicked on sign in button
+2023-03-09 14:52:26,130 [main] INFO logger_File - User entered email zafar@gmail.comand password Jafar22@
+2023-03-09 14:52:26,345 [main] INFO logger_File - User clicked on login button
+2023-03-09 14:52:26,633 [main] INFO logger_File - Account button is Displayed
+2023-03-09 15:06:53,178 [main] INFO logger_File - user is on retail website
+2023-03-09 15:06:53,182 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 15:06:54,347 [main] INFO logger_File - User clicked on sign in button
+2023-03-09 15:06:54,893 [main] INFO logger_File - User entered email zafar@gmail.comand password Jafar22@
+2023-03-09 15:06:55,226 [main] INFO logger_File - User clicked on login button
+2023-03-09 15:06:55,552 [main] INFO logger_File - Account button is Displayed
