@@ -1,0 +1,5 @@
+tek\sdet\framework\base\BaseUITest.class
+tek\sdet\framework\pages\RetailHomePage.class
+tek\sdet\framework\steps\RetailSteps.class
+tek\sdet\framework\pages\RetailSignInPage.class
+tek\sdet\framework\pages\POMFactory.class
